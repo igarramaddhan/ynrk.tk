@@ -10,6 +10,7 @@ Personal blog created with [gatsby](https://www.gatsbyjs.org/)
     ```
 
 1.  **Install dependency**
+
     Navigate into the cloned directory
     ```sh
     cd ynrk.tk/
