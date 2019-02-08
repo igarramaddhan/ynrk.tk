@@ -3,7 +3,7 @@ title: Setup Projek React dari nol dengan Webpack
 published: true
 tags: #react, #webpack, #javascript
 description: Tutorial ReactJS
-date: "2018-09-26"
+date: "2019-02-08"
 ---
 
 Saya telah berkelana di dunia pe-React-an sekitar 2 tahun belakangan ini. Dari yang awalnya menggunakan cara instant untuk mencoba React menggunakan `create-react-app`, hingga bisa setup projek React sendiri. Di post ini saya akan membagikan bagaimana cara untuk setup projek React mulai dari nol.
