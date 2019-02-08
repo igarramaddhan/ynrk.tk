@@ -1,0 +1,14 @@
+.post-title {
+  margin-bottom: 16px;
+}
+
+.date {
+  background: #ff9900;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.content-image {
+  margin-top: 32px;
+}

@@ -1,0 +1,25 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.post-list {
+  border: 1px solid gainsboro;
+  padding: 2rem;
+  box-shadow: 0 -1px 4px #ede7e7;
+  margin: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+img {
+  height: 90% !important;
+}
+
+.post-list:hover {
+  color: black;
+  background-color: whitesmoke;
+  box-shadow: 8px 8px #ff9900;
+  transform: scale(1.01);
+  z-index: 99;
+}
