@@ -40,16 +40,6 @@ export const query = graphql`
         title
         description
         date(formatString: "MMMM D, YYYY")
-        image {
-          childImageSharp {
-            resize(width: 1500, height: 1500) {
-              src
-            }
-            fluid(maxWidth: 786) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
     site {
