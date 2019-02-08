@@ -31,8 +31,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve -p 3000",
+    "start": "gatsby serve -p 3000",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "repository": {
