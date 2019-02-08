@@ -2,7 +2,7 @@
 title: Setup Projek React dari nol dengan Webpack
 published: true
 tags: #react, #webpack, #javascript
-description: This post is related to the gatsbyjs
+description: Tutorial ReactJS
 date: "2018-09-26"
 ---
 
