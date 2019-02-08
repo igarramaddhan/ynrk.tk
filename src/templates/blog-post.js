@@ -21,9 +21,9 @@ function BlogPost(props) {
       <h1 className="post-title">{title}</h1>
       <span className="date">{post.frontmatter.date}</span>
       <div className="content-image">
-      {post.frontmatter.image !== null && (
+      {/* {post.frontmatter.image !== null && (
         <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-      )}
+      )} */}
       </div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
