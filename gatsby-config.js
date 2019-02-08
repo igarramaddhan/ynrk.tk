@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `ynrk.tk`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#f2f2f2`,
