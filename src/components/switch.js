@@ -7,10 +7,10 @@ const Switch = props => {
     <div className="switch-container" onClick={props.onClick}>
       <div className={`switch-indicator ${props.active ? 'right' : 'left'}`} />
       <div className="left-item">
-        <div className="item-content">{props.leftItem}</div>
+        <div>{props.leftItem}</div>
       </div>
       <div className="right-item">
-        <div className="item-content">{props.rightItem}</div>
+        <div>{props.rightItem}</div>
       </div>
     </div>
   );

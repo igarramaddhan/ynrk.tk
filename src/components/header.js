@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
             active={theme.dark}
             onClick={theme.toggleDark}
             rightItem={<span className="light-switch">☀</span>}
-            leftItem={<span className="light-switch">☾</span>}
+            leftItem={<span className="dark-switch">☾</span>}
           />
         </div>
       </header>

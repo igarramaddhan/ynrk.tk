@@ -620,19 +620,12 @@ pre tt:after {
   }
 }
 
-.dark-switcher {
-  margin-top: 5px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
+.dark-switch {
+  color: white !important;
 }
 
-.dark-switcher .dark-switch {
-  color: black;
-}
-
-.dark-switcher .light-switch {
-  color: white;
+.light-switch {
+  color: black !important;
 }
 /* @media (min-width: 992px) {
   .dark-switcher {
