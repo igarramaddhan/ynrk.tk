@@ -37,7 +37,7 @@ Lalu tambahkan dev dependency:
 yarn add --dev @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader clean-webpack-plugin html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server
 ```
 
-Setelah menambahkan dependency di atas, kita perlu untuk mengonfigurasi webpack. Pertama tama mari kita buat file `webpack.config.json` di root folder projek kita. Setelah itu tuliskan code berikut:
+Setelah menambahkan dependency di atas, kita perlu untuk mengonfigurasi webpack. Pertama tama mari kita buat file `webpack.config.js` di root folder projek kita. Setelah itu tuliskan code berikut:
 
 ```javascript
 const path = require("path");
@@ -81,13 +81,19 @@ module.exports = {
 
 Field `entry` merupakan file utama yang diperlukan dalam projek. `Output` sendiri merupakan nama file yang nantinya dibuat setelah project di build ke mode production. Kemudian field `plugins` merupakan plugin yang kita gunakan dalam projek. Disini kita menggunakan plugin `clean-webpack-plugin` yang digunakan untuk membersihkan folder `dist` setiap kali kita melakukan build project dan `html-webpack-plugin` yang digunakan sebagai penentu templete file html yang nantinya akan diiject bundle js hasil build.
 
-Setelah kita melakukan konfigurasi pada webpack, langkah selanjutnya adalah menambahkan field `scripts` pada `package.json`.
+Setelah kita melakukan konfigurasi pada webpack, langkah selanjutnya adalah menambahkan field `scripts` dan `babel` pada `package.json`.
 
 ```json
 ...
 "scripts": {
     "dev": "webpack-dev-server"
 },
+"babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
 ...
 ```
 
