@@ -8,7 +8,6 @@ const IndexPage = props => {
   const postList = props.data.allMarkdownRemark.edges.filter(value => {
     return value.node.frontmatter.published;
   });
-  console.log(postList);
   const { title, description, siteUrl } = props.data.site.siteMetadata;
   return (
     <Layout>
