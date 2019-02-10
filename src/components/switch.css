@@ -28,11 +28,16 @@
   left: 50px;
 }
 
-.left-item, .right-item {
+.left-item,
+.right-item {
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.dark .switch-container {
+  background: #252525;
 }
