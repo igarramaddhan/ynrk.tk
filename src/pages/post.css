@@ -1,6 +1,10 @@
 .link {
   text-decoration: none;
-  color: black;
+  color: black !important;
+}
+
+.dark .link {
+  color: white !important;
 }
 
 .post-list {

@@ -403,7 +403,7 @@ div.code-toolbar > .toolbar span:focus {
 }
 
 .gatsby-highlight-code-line {
-  background-color: #30626c;
+  background-color: rgba(48, 98, 108, 0.5);
   display: block;
   margin-right: -1em;
   margin-left: -1em;
